@@ -1,38 +1,19 @@
 @font-face {
-  font-family: "ProximaNova-Bold";
-  src: url("../../fonts/proximanova/ProximaNova-Bold.ttf") format("truetype");
+  font-family: "CentraNo2-Bold";
+  src: url("../../fonts/CentraNo2/CentraNo2-Bold.woff") format("woff");
   font-style: normal;
   font-weight: 700;
 }
 @font-face {
-  font-family: "ProximaNova-Semibold";
-  src: url("../../fonts/proximanova/ProximaNova-Semibold.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: "ProximaNova-Light";
-  src: url("../../fonts/proximanova/ProximaNova-Light.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 300;
-}
-@font-face {
-  font-family: "ProximaNova-Regular";
-  src: url("../../fonts/proximanova/ProximaNova-Regular.ttf") format("truetype");
+  font-family: "CentraNo2-Book";
+  src: url("../../fonts/CentraNo2/CentraNo2-Book.woff") format("woff");
   font-style: normal;
   font-weight: 400;
 }
-@font-face {
 
-  font-family: "Roboto-Regular";
-  src: url("../../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 400;
-}
 @font-face {
-  font-family: "Roboto-Bold";
-  src: url("../../fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+  font-family: "CentraNo2-Medium";
+  src: url("../../fonts/CentraNo2/CentraNo2-Medium.woff") format("woff");
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
 }

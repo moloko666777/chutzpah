@@ -5,3 +5,179 @@ html {
 body {
   margin: 0;
 }
+.home-page {
+  padding: 10.7rem 31rem 11.5rem 23.8rem;
+  background-color: #f7f7f7;
+  font-size: 0;
+}
+.home-page p {
+  font-family: 'CentraNo2-Book';
+  font-size: 2rem;
+  line-height: 1.7;
+  letter-spacing: normal;
+  color: #646464;
+  margin-top: 0;
+  margin-bottom: 4.2rem;
+}
+.home-page__title {
+  display: inline-block;
+  width: 70%;
+  vertical-align: top;
+  padding-top: 2.3rem;
+}
+.home-page__title h1 {
+  font-family: 'CentraNo2-Bold';
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 5.2rem;
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: normal;
+  color: #1e1e1e;
+}
+.home-page__dictionary {
+  font-family: "CentraNo2-Medium";
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.7;
+  letter-spacing: normal;
+  color: #656565;
+  margin-bottom: 2.8rem;
+}
+.home-page__video {
+  display: inline-block;
+  width: 30%;
+}
+.home-page__button {
+  font-family: "CentraNo2-Book";
+  font-size: 2rem;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 20px;
+  background-color: #3c82ff;
+  text-decoration: none;
+  padding: 0.45rem 2rem;
+}
+.dictionary-page {
+  padding: 4.6rem 14.7rem 12.4rem 14.7rem;
+  background-color: #023ca3;
+}
+.dictionary-page h2 {
+  font-family: 'CentraNo2-Bold';
+  font-size: 5.2rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 4.3rem;
+}
+.dictionary-page__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.dictionary-page__wrapper {
+  position: relative;
+  width: 23%;
+  margin-bottom: 3.1%;
+  min-height: 21.2rem;
+  background-color: #ffffff;
+  padding: 2.4rem 5.3rem 3.9rem 3.8rem;
+}
+.dictionary-page__wrapper:nth-child(3n+3) {
+  margin-right: 0;
+}
+.dictionary-page__word {
+  transform: rotate(-360deg);
+  font-family: 'CentraNo2-Medium';
+  font-size: 3.2rem;
+  font-weight: 500;
+  color: #3c82ff;
+}
+.dictionary-page__transcription {
+  font-family: 'CentraNo2-Book';
+  font-size: 1.6rem;
+  color: #646464;
+  margin-bottom: 1.5rem;
+}
+.dictionary-page__transcription span {
+  font-family: 'CentraNo2-Bold';
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #646464;
+}
+.dictionary-page__description-word {
+  font-family: 'CentraNo2-Book';
+  font-size: 1.6rem;
+  color: #646464;
+}
+.dictionary-page__description-word:before {
+  content: "";
+  position: absolute;
+  left: 16%;
+  transform: translateX(-50%);
+  bottom: 95px;
+  width: 31px;
+  height: 2px;
+  background-color: #646464;
+}
+.dictionary-page__application {
+  width: 70%;
+  font-family: 'CentraNo2-Bold';
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #646464;
+  position: absolute;
+  bottom: 3.9rem;
+}
+.footer {
+  padding: 4.3rem 14.9rem 4.3rem 14.6rem;
+  background-color: #e6f0ff;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  position: relative;
+}
+.footer-upper__text {
+  font-family: 'CentraNo2-Book';
+  font-size: 1.6rem;
+  color: #646464;
+  width: 30%;
+}
+.footer-upper__text h4 {
+  margin-top: 0;
+}
+.footer-upper__input {
+  font-family: 'CentraNo2-Book';
+  font-size: 1.6rem;
+  color: #646464;
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: solid 1px #646464;
+  background: transparent;
+  outline: none;
+  position: absolute;
+  right: 10rem;
+  width: 35%;
+}
+.footer-upper__submit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font: 16px/16px 'Centra2 Book';
+  color: #ffffff;
+  width: 110px;
+  padding: 15px 0;
+  text-align: center;
+  background-color: #646464;
+  border: 1px solid #646464;
+  border-radius: 0 5px 5px 0;
+}
