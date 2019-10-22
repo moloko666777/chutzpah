@@ -3,19 +3,42 @@
 <head>
     <meta charset="UTF-8">
 
+    <!-- Google Tag Manager -->
+        <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N43NKJL');</script>
+    <!-- End Google Tag Manager -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <link rel="stylesheet" href="slider/slick.css"/>
     <link href="css/index.css" rel="stylesheet">
     <link href="css/typography/typography.css" rel="stylesheet">
     <title>Chutzpah</title>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N43NKJL"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
 <header>
     <section>
         <div class="home-page">
             <div class="home-page__title">
-                <h1>Free you Chutzpah!</h1>
+                <h1>Free you Chutzpaha!</h1>
                 <div class="home-page__dictionary">The Chutzpah dictionary by Inbal Arieli</div>
                 <p>Chutzpah is about not accepting the world ‘as is’ and trying to better it. It starts simply by
                     speaking up your mind. That's why we created the Chutzpah Pack: cool gifs to express the right
@@ -28,6 +51,12 @@
                     <source src="video/DESKTOP.mp4" type="video/mp4">
                 </video>
             </div>
+            <div class="home-page__video-mobile">
+                <video id="vidm" preload="auto" autoplay="true" loop="true" playsinline="" muted="" width="100%"
+                       height="520px">
+                    <source src="video/MOBILE.mp4" type="video/mp4">
+                </video>
+            </div>
         </div>
     </section>
 </header>
@@ -36,86 +65,148 @@
         <div class="dictionary-page">
             <h2>The Dictionary</h2>
             <div class="dictionary-page__content">
-                <div class="dictionary-page__wrapper">
-                    <div class="dictionary-page__word">Chutzpah</div>
-                    <div class="dictionary-page__transcription">[ Chootz-pah ] <span>Noun</span></div>
-                    <div class="dictionary-page__description-word">Brutal honesty, usually at the price of sounding
-                        presumptuous, arrogant or rude.
-                    </div>
-                    <div class="dictionary-page__border"></div>
-                    <div class="dictionary-page__application">“It takes chutzpah to tell your boss he’s wrong.”</div>
-                </div>
-                <div class="dictionary-page__wrapper">
-                    <div class="dictionary-page__word">Balagan</div>
-                    <div class="dictionary-page__transcription">[ Ba-la-gan ] <span>Noun</span></div>
-                    <div class="dictionary-page__description-word">Organized chaos.
-                    </div>
-                    <div class="dictionary-page__border"></div>
-                    <div class="dictionary-page__application">“Life would be very boring without a pinch of balagan.”
+                <div class="dictionary-page__content-wrapper">
+                    <div class="dictionary-page__wrapper">
+                        <div class="dictionary-page__extra-wrapper">
+                            <div class="dictionary-page__word">Chutzpah</div>
+                            <div class="dictionary-page__transcription">[ Chootz-pah ] <span>Noun</span></div>
+                            <div class="dictionary-page__description-word">Brutal honesty, usually at the price of
+                                sounding
+                                presumptuous, arrogant or rude.
+                            </div>
+                        </div>
+                        <div class="dictionary-page__application">
+                            <div class="dictionary-page__application">“It takes chutzpah to tell your boss he’s wrong.”
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="dictionary-page__wrapper">
-                    <div class="dictionary-page__word">Chutzpah</div>
-                    <div class="dictionary-page__transcription">[ Chootz-pah ] <span>Noun</span></div>
-                    <div class="dictionary-page__description-word">Brutal honesty, usually at the price of sounding
-                        presumptuous, arrogant or rude.
+                <div class="dictionary-page__content-wrapper">
+                    <div class="dictionary-page__wrapper">
+                        <div class="dictionary-page__extra-wrapper">
+                            <div class="dictionary-page__word">Balagan</div>
+                            <div class="dictionary-page__transcription">[ Ba-la-gan ] <span>Noun</span></div>
+                            <div class="dictionary-page__description-word">Organized chaos.
+                            </div>
+                        </div>
+                        <div class="dictionary-page__application">
+                            <div class="dictionary-page__application">“Life would be very boring without a pinch of
+                                balagan.”
+                            </div>
+                        </div>
                     </div>
-                    <div class="dictionary-page__border"></div>
-                    <div class="dictionary-page__application">“It takes chutzpah to tell your boss he’s wrong.”</div>
                 </div>
-                <div class="dictionary-page__wrapper">
-                    <div class="dictionary-page__word">Chutzpah</div>
-                    <div class="dictionary-page__transcription">[ Chootz-pah ] <span>Noun</span></div>
-                    <div class="dictionary-page__description-word">Brutal honesty, usually at the price of sounding
-                        presumptuous, arrogant or rude.
+                <div class="dictionary-page__content-wrapper">
+                    <div class="dictionary-page__wrapper">
+                        <div class="dictionary-page__extra-wrapper">
+                            <div class="dictionary-page__word">Chutzpah</div>
+                            <div class="dictionary-page__transcription">[ Chootz-pah ] <span>Noun</span></div>
+                            <div class="dictionary-page__description-word">Brutal honesty, usually at the price of
+                                sounding
+                                presumptuous, arrogant or rude.
+                            </div>
+                        </div>
+                        <div class="dictionary-page__application">
+                            <div class="dictionary-page__application">“It takes chutzpah to tell your boss he’s wrong.”
+                            </div>
+                        </div>
                     </div>
-                    <div class="dictionary-page__border"></div>
-                    <div class="dictionary-page__application">“It takes chutzpah to tell your boss he’s wrong.”</div>
                 </div>
-                <div class="dictionary-page__wrapper">
-                    <div class="dictionary-page__word">Chutzpah</div>
-                    <div class="dictionary-page__transcription">[ Chootz-pah ] <span>Noun</span></div>
-                    <div class="dictionary-page__description-word">Brutal honesty, usually at the price of sounding
-                        presumptuous, arrogant or rude.
+                <div class="dictionary-page__content-wrapper">
+                    <div class="dictionary-page__wrapper">
+                        <div class="dictionary-page__extra-wrapper">
+                            <div class="dictionary-page__word">Chutzpah</div>
+                            <div class="dictionary-page__transcription">[ Chootz-pah ] <span>Noun</span></div>
+                            <div class="dictionary-page__description-word">Brutal honesty, usually at the price of
+                                sounding
+                                presumptuous, arrogant or rude.
+                            </div>
+                        </div>
+                        <div class="dictionary-page__application">
+                            <div class="dictionary-page__application">“It takes chutzpah to tell your boss he’s wrong.”
+                            </div>
+                        </div>
                     </div>
-                    <div class="dictionary-page__border"></div>
-                    <div class="dictionary-page__application">“It takes chutzpah to tell your boss he’s wrong.”</div>
                 </div>
-                <div class="dictionary-page__wrapper">
-                    <div class="dictionary-page__word">Chutzpah</div>
-                    <div class="dictionary-page__transcription">[ Chootz-pah ] <span>Noun</span></div>
-                    <div class="dictionary-page__description-word">Brutal honesty, usually at the price of sounding
-                        presumptuous, arrogant or rude.
+                <div class="dictionary-page__content-wrapper">
+                    <div class="dictionary-page__wrapper">
+                        <div class="dictionary-page__extra-wrapper">
+                            <div class="dictionary-page__word">Chutzpah</div>
+                            <div class="dictionary-page__transcription">[ Chootz-pah ] <span>Noun</span></div>
+                            <div class="dictionary-page__description-word">Brutal honesty, usually at the price of
+                                sounding
+                                presumptuous, arrogant or rude.
+                            </div>
+                        </div>
+                        <div class="dictionary-page__application">
+                            <div class="dictionary-page__application">“It takes chutzpah to tell your boss he’s wrong.”
+                            </div>
+                        </div>
                     </div>
-                    <div class="dictionary-page__border"></div>
-                    <div class="dictionary-page__application">“It takes chutzpah to tell your boss he’s wrong.”</div>
                 </div>
-                <div class="dictionary-page__wrapper">
-                    <div class="dictionary-page__word">Chutzpah</div>
-                    <div class="dictionary-page__transcription">[ Chootz-pah ] <span>Noun</span></div>
-                    <div class="dictionary-page__description-word">Brutal honesty, usually at the price of sounding
-                        presumptuous, arrogant or rude.
+                <div class="dictionary-page__content-wrapper">
+                    <div class="dictionary-page__wrapper">
+                        <div class="dictionary-page__extra-wrapper">
+                            <div class="dictionary-page__word">Chutzpah</div>
+                            <div class="dictionary-page__transcription">[ Chootz-pah ] <span>Noun</span></div>
+                            <div class="dictionary-page__description-word">Brutal honesty, usually at the price of
+                                sounding
+                                presumptuous, arrogant or rude.
+                            </div>
+                        </div>
+                        <div class="dictionary-page__application">
+                            <div class="dictionary-page__application">“It takes chutzpah to tell your boss he’s wrong.”
+                            </div>
+                        </div>
                     </div>
-                    <div class="dictionary-page__border"></div>
-                    <div class="dictionary-page__application">“It takes chutzpah to tell your boss he’s wrong.”</div>
                 </div>
-                <div class="dictionary-page__wrapper">
-                    <div class="dictionary-page__word">Chutzpah</div>
-                    <div class="dictionary-page__transcription">[ Chootz-pah ] <span>Noun</span></div>
-                    <div class="dictionary-page__description-word">Brutal honesty, usually at the price of sounding
-                        presumptuous, arrogant or rude.
+                <div class="dictionary-page__content-wrapper">
+                    <div class="dictionary-page__wrapper">
+                        <div class="dictionary-page__extra-wrapper">
+                            <div class="dictionary-page__word">Chutzpah</div>
+                            <div class="dictionary-page__transcription">[ Chootz-pah ] <span>Noun</span></div>
+                            <div class="dictionary-page__description-word">Brutal honesty, usually at the price of
+                                sounding
+                                presumptuous, arrogant or rude.
+                            </div>
+                        </div>
+                        <div class="dictionary-page__application">
+                            <div class="dictionary-page__application">“It takes chutzpah to tell your boss he’s wrong.”
+                            </div>
+                        </div>
                     </div>
-                    <div class="dictionary-page__border"></div>
-                    <div class="dictionary-page__application">“It takes chutzpah to tell your boss he’s wrong.”</div>
                 </div>
-                <div class="dictionary-page__wrapper">
-                    <div class="dictionary-page__word">Chutzpah</div>
-                    <div class="dictionary-page__transcription">[ Chootz-pah ] <span>Noun</span></div>
-                    <div class="dictionary-page__description-word">Brutal honesty, usually at the price of sounding
-                        presumptuous, arrogant or rude.
+                <div class="dictionary-page__content-wrapper">
+                    <div class="dictionary-page__wrapper">
+                        <div class="dictionary-page__extra-wrapper">
+                            <div class="dictionary-page__word">Chutzpah</div>
+                            <div class="dictionary-page__transcription">[ Chootz-pah ] <span>Noun</span></div>
+                            <div class="dictionary-page__description-word">Brutal honesty, usually at the price of
+                                sounding
+                                presumptuous, arrogant or rude.
+                            </div>
+                        </div>
+                        <div class="dictionary-page__application">
+                            <div class="dictionary-page__application">“It takes chutzpah to tell your boss he’s wrong.”
+                            </div>
+                        </div>
                     </div>
-                    <div class="dictionary-page__border"></div>
-                    <div class="dictionary-page__application">“It takes chutzpah to tell your boss he’s wrong.”</div>
+                </div>
+                <div class="dictionary-page__content-wrapper">
+                    <div class="dictionary-page__wrapper">
+                        <div class="dictionary-page__extra-wrapper">
+                            <div class="dictionary-page__word">Chutzpah</div>
+                            <div class="dictionary-page__transcription">[ Chootz-pah ] <span>Noun</span></div>
+                            <div class="dictionary-page__description-word">Brutal honesty, usually at the price of
+                                sounding
+                                presumptuous, arrogant or rude.
+                            </div>
+                        </div>
+                        <div class="dictionary-page__application">
+                            <div class="dictionary-page__application">“It takes chutzpah to tell your boss he’s wrong.”
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -135,8 +226,48 @@
                 </form>
             </div>
         </div>
+        <div class="footer__lower-wrapper">
+            <div class="footer__lower-left">
+                <div class="footer__copyright">
+                    &copy 2019 All rights reserved, Inbal Arieli
+                </div>
+                <div class="footer__links">
+                    <a href="#">Inbal Arieli</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Chutzpah: The Book</a>
+                </div>
+            </div>
+            <div class="footer__social-links">
+                <a class="twitter" href="#"></a>
+                <a class="facebook" href="#"></a>
+                <a class="linkedin" href="#"></a>
+            </div>
+        </div>
+        <div class="footer__lower-wrapper-mobile">
+            <div class="footer__links-mobile">
+                <a href="#">Inbal Arieli</a>
+                <a href="#">Blog</a>
+                <a href="#">Chutzpah: The Book</a>
+            </div>
+            <div class="footer__lower-mobile">
+                <div class="footer__copyright">
+                    &copy 2019 All rights reserved, Inbal Arieli
+                </div>
+                <div class="footer__social-links">
+                    <a class="twitter" href="#"></a>
+                    <a class="facebook" href="#"></a>
+                    <a class="linkedin" href="#"></a>
+                </div>
+            </div>
+
+        </div>
+
     </div>
 </footer>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="slider/slick.min.js"></script>
+<script src="scripts/slider.js"></script>
 <script src="https://kit.fontawesome.com/d441f2753a.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
