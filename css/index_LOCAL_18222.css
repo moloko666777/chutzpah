@@ -184,9 +184,9 @@ body {
   color: #646464;
 }
 .home-page__title h1 {
-  font-family: 'CentraNo2-Bold';
+  font-family: 'CentraNo2-Medium';
+  font-weight: 500;
   margin-top: 0;
-  margin-bottom: 0;
   color: #1e1e1e;
 }
 .home-page__dictionary {
@@ -302,71 +302,6 @@ body {
   color: #ffffff;
   background-color: #646464;
   border: 1px solid #646464;
-}
-.footer__lower-left {
-  display: flex;
-}
-.footer__copyright {
-  font-family: 'CentraNo2-Medium';
-  font-weight: 500;
-  color: #646464;
-}
-.footer__links {
-  font-family: 'CentraNo2-Medium';
-  font-size: 1.2rem;
-  font-weight: 500;
-}
-.footer__links a {
-  color: #646464;
-  text-decoration: none;
-}
-.footer__links a:not(:last-child) {
-  border-right: 1px solid #b7b7b7;
-  padding-right: 1rem;
-}
-.footer__links a:not(:nth-child(1)) {
-  padding-left: 1rem;
-}
-.footer__social-links a {
-  text-decoration: none;
-}
-.footer .twitter,
-.footer .facebook,
-.footer .linkedin {
-  display: inline-block;
-  flex-shrink: 0;
-  border-radius: 50%;
-  background-color: #b7b7b7;
-}
-.footer .linkedin {
-  margin-right: 0;
-}
-.footer .twitter:before {
-  content: "\f099";
-  font-family: "Font Awesome 5 Brands";
-  position: absolute;
-  color: #ffffff;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.footer .facebook:before {
-  content: "\f39e";
-  font-family: "Font Awesome 5 Brands";
-  position: absolute;
-  color: #ffffff;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.footer .linkedin:before {
-  content: '\f0e1';
-  font-family: "Font Awesome 5 Brands";
-  position: absolute;
-  color: #ffffff;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 .footer__lower-left {
   display: flex;
