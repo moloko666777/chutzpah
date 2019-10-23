@@ -33,6 +33,7 @@
   .home-page__button {
     border-radius: 25px;
     padding: 0.45rem 2rem;
+    display: block;
   }
   .dictionary-page {
     padding-top: 2.1rem;
@@ -50,6 +51,17 @@
     width: unset;
     min-height: 33.1rem;
     padding: 2.5rem 3rem 3.2rem 2.5rem;
+  }
+  .dictionary-page__transcription {
+    margin-bottom: 2.1rem;
+    font-size: 1.8rem;
+  }
+  .dictionary-page__description-word {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+  }
+  .dictionary-page__application {
+    font-size: 1.8rem;
   }
   .dictionary-page .slick-slide {
     padding-right: 10px;

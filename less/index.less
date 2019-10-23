@@ -14,8 +14,10 @@ body {
 @media screen and (min-width: 1366px) {
   .home-page {
     padding: 10.7rem 31rem 11.5rem 23.8rem;
+    text-align: left;
 
     p {
+      text-align: left;
       font-size: 2rem;
       margin-top: 0;
       margin-bottom: 4.2rem;
@@ -26,17 +28,20 @@ body {
       width: 70%;
       vertical-align: top;
       padding-top: 2.3rem;
+      text-align: left;
 
       h1 {
         font-size: 5.2rem;
         font-weight: 500;
         line-height: 1.15;
+        text-align: left;
       }
     }
 
     &__dictionary {
       font-size: 2rem;
       margin-bottom: 2.8rem;
+      text-align: left;
     }
 
     &__video {
@@ -83,6 +88,7 @@ body {
       font-size: 1.6rem;
       width: 30%;
     }
+
     &-upper__input {
       font-size: 1.6rem;
       padding: 12px 20px;
@@ -92,6 +98,7 @@ body {
       width: 35%;
       line-height: 1.7;
     }
+
     &-upper__submit {
       font-size: 1.6rem;
       position: absolute;
@@ -105,9 +112,11 @@ body {
       border: 1px solid #646464;
       border-radius: 0 5px 5px 0;
     }
+
     &__lower-wrapper-mobile {
       display: none;
     }
+
     &__lower-wrapper {
       display: flex;
       justify-content: space-between;
@@ -127,7 +136,6 @@ body {
     }
 
 
-
     .twitter:before {
       font-size: 1.3rem;
       top: 7px;
@@ -145,6 +153,7 @@ body {
       top: 6px;
       left: 8px;
     }
+
     &__copyright {
       font-size: 1.2rem;
       color: #646464;
@@ -169,12 +178,28 @@ body {
       box-sizing: border-box;
     }
 
+    &__transcription {
+      font-size: 1.6rem;
+      margin-bottom: 1.5rem;
+    }
+
+    &__description-word {
+      font-size: 1.6rem;
+      margin-bottom: 40px;
+    }
+
+    &__application {
+      font-weight: bold;
+      color: #646464;
+      position: relative;
+      font-size: 1.6rem;
+    }
+
     &__content-wrapper {
       width: 31%;
       margin-bottom: 3.1%;
     }
   }
-
 }
 
 .home-page {
@@ -260,9 +285,7 @@ body {
 
   &__transcription {
     font-family: 'CentraNo2-Book';
-    font-size: 1.6rem;
     color: #646464;
-    margin-bottom: 1.5rem;
 
     span {
       font-family: 'CentraNo2-Bold';
@@ -274,18 +297,15 @@ body {
 
   &__description-word {
     font-family: 'CentraNo2-Book';
-    font-size: 1.6rem;
     color: #646464;
-    margin-bottom: 40px;
   }
-
 
   &__application:after {
     content: "";
     position: absolute;
     left: 7%;
     transform: translateX(-50%);
-    bottom: 60px;
+    top: -10px;
     width: 31px;
     height: 2px;
     background-color: #646464;
@@ -293,7 +313,6 @@ body {
 
   &__application {
     font-family: 'CentraNo2-Bold';
-    font-size: 1.6rem;
     font-weight: bold;
     color: #646464;
     position: relative;
@@ -311,6 +330,7 @@ body {
   &-upper__text {
     font-family: 'CentraNo2-Book';
     color: #646464;
+
     h4 {
       margin-top: 0;
     }
@@ -334,12 +354,6 @@ body {
     color: #ffffff;
     background-color: #646464;
     border: 1px solid #646464;
-  }
-
-
-
-  &__lower-wrapper {
-
   }
 
   &__lower-left {
@@ -418,6 +432,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
   &__lower-mobile {
     display: flex;
     align-items: center;

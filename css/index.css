@@ -10,8 +10,10 @@ body {
 @media screen and (min-width: 1366px) {
   .home-page {
     padding: 10.7rem 31rem 11.5rem 23.8rem;
+    text-align: left;
   }
   .home-page p {
+    text-align: left;
     font-size: 2rem;
     margin-top: 0;
     margin-bottom: 4.2rem;
@@ -21,15 +23,18 @@ body {
     width: 70%;
     vertical-align: top;
     padding-top: 2.3rem;
+    text-align: left;
   }
   .home-page__title h1 {
     font-size: 5.2rem;
     font-weight: 500;
     line-height: 1.15;
+    text-align: left;
   }
   .home-page__dictionary {
     font-size: 2rem;
     margin-bottom: 2.8rem;
+    text-align: left;
   }
   .home-page__video {
     display: inline-block;
@@ -144,6 +149,20 @@ body {
     height: 100%;
     box-sizing: border-box;
   }
+  .dictionary-page__transcription {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+  }
+  .dictionary-page__description-word {
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+  }
+  .dictionary-page__application {
+    font-weight: bold;
+    color: #646464;
+    position: relative;
+    font-size: 1.6rem;
+  }
   .dictionary-page__content-wrapper {
     width: 31%;
     margin-bottom: 3.1%;
@@ -218,9 +237,7 @@ body {
 }
 .dictionary-page__transcription {
   font-family: 'CentraNo2-Book';
-  font-size: 1.6rem;
   color: #646464;
-  margin-bottom: 1.5rem;
 }
 .dictionary-page__transcription span {
   font-family: 'CentraNo2-Bold';
@@ -230,23 +247,20 @@ body {
 }
 .dictionary-page__description-word {
   font-family: 'CentraNo2-Book';
-  font-size: 1.6rem;
   color: #646464;
-  margin-bottom: 40px;
 }
 .dictionary-page__application:after {
   content: "";
   position: absolute;
   left: 7%;
   transform: translateX(-50%);
-  bottom: 60px;
+  top: -10px;
   width: 31px;
   height: 2px;
   background-color: #646464;
 }
 .dictionary-page__application {
   font-family: 'CentraNo2-Bold';
-  font-size: 1.6rem;
   font-weight: bold;
   color: #646464;
   position: relative;
