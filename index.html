@@ -3,29 +3,59 @@
 <head>
     <meta charset="UTF-8">
 
+    <!-- Google Tag Manager -->
+<!--    <script>(function (w, d, s, l, i) {-->
+<!--        w[l] = w[l] || [];-->
+<!--        w[l].push({-->
+<!--            'gtm.start':-->
+<!--                new Date().getTime(), event: 'gtm.js'-->
+<!--        });-->
+<!--        var f = d.getElementsByTagName(s)[0],-->
+<!--            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';-->
+<!--        j.async = true;-->
+<!--        j.src =-->
+<!--            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;-->
+<!--        f.parentNode.insertBefore(j, f);-->
+<!--    })(window, document, 'script', 'dataLayer', 'GTM-N43NKJL');</script>-->
+    <!-- End Google Tag Manager -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <link rel="stylesheet" href="slider/slick.css"/>
     <link href="css/index.css" rel="stylesheet">
     <link href="css/typography/typography.css" rel="stylesheet">
     <title>Chutzpah</title>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<!--<noscript>-->
+<!--    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N43NKJL"-->
+<!--            height="0" width="0" style="display:none;visibility:hidden"></iframe>-->
+<!--</noscript>-->
+<!-- End Google Tag Manager (noscript) -->
 <header>
     <section>
         <div class="home-page">
             <div class="home-page__title">
                 <h1>Free you Chutzpah!</h1>
-                <div class="home-page__dictionary">The Chutzpah dictionary by Inbal Arieli</div>
+                <div class="home-page__dictionary"><span>The Chutzpah dictionary</span><span> by Inbal Arieli</span></div>
+
                 <p>Chutzpah is about not accepting the world ‘as is’ and trying to better it. It starts simply by
                     speaking up your mind. That's why we created the Chutzpah Pack: cool gifs to express the right
                     mindset and share it with the world.</p>
-                <a class="home-page__button" href="#">Get the pack</a>
+                <a class="home-page__button" href="https://giphy.com/channel/ChutzpahDictionary">Get the pack</a>
             </div>
             <div class="home-page__video">
                 <video id="vid" preload="auto" autoplay="true" loop="true" playsinline="" muted="" width="100%"
                        height="420px">
                     <source src="video/DESKTOP.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="home-page__video-mobile">
+                <video id="vidm" preload="auto" autoplay="true" loop="true" playsinline="" muted="" width="100%"
+                       height="520px">
+                    <source src="video/MOBILE.mp4" type="video/mp4">
                 </video>
             </div>
         </div>
@@ -36,86 +66,143 @@
         <div class="dictionary-page">
             <h2>The Dictionary</h2>
             <div class="dictionary-page__content">
-                <div class="dictionary-page__wrapper">
-                    <div class="dictionary-page__word">Chutzpah</div>
-                    <div class="dictionary-page__transcription">[ Chootz-pah ] <span>Noun</span></div>
-                    <div class="dictionary-page__description-word">Brutal honesty, usually at the price of sounding
-                        presumptuous, arrogant or rude.
-                    </div>
-                    <div class="dictionary-page__border"></div>
-                    <div class="dictionary-page__application">“It takes chutzpah to tell your boss he’s wrong.”</div>
-                </div>
-                <div class="dictionary-page__wrapper">
-                    <div class="dictionary-page__word">Balagan</div>
-                    <div class="dictionary-page__transcription">[ Ba-la-gan ] <span>Noun</span></div>
-                    <div class="dictionary-page__description-word">Organized chaos.
-                    </div>
-                    <div class="dictionary-page__border"></div>
-                    <div class="dictionary-page__application">“Life would be very boring without a pinch of balagan.”
+                <div class="dictionary-page__content-wrapper">
+                    <div class="dictionary-page__wrapper">
+                        <div class="dictionary-page__extra-wrapper">
+                            <div class="dictionary-page__word">Chutzpah</div>
+                            <div class="dictionary-page__transcription">[ Chootz-pah ] <span>Noun</span></div>
+                            <div class="dictionary-page__description-word">Brutal honesty, usually at the price of
+                                sounding
+                                presumptuous, arrogant or rude.
+                            </div>
+                        </div>
+                        <div class="dictionary-page__application">
+                            <div class="dictionary-page__application">“It takes chutzpah to tell your boss he’s wrong.”
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="dictionary-page__wrapper">
-                    <div class="dictionary-page__word">Chutzpah</div>
-                    <div class="dictionary-page__transcription">[ Chootz-pah ] <span>Noun</span></div>
-                    <div class="dictionary-page__description-word">Brutal honesty, usually at the price of sounding
-                        presumptuous, arrogant or rude.
+                <div class="dictionary-page__content-wrapper">
+                    <div class="dictionary-page__wrapper">
+                        <div class="dictionary-page__extra-wrapper">
+                            <div class="dictionary-page__word">Balagan</div>
+                            <div class="dictionary-page__transcription">[ Ba-la-gan ] <span>Noun</span></div>
+                            <div class="dictionary-page__description-word">Organized chaos.
+                            </div>
+                        </div>
+                        <div class="dictionary-page__application">
+                            <div class="dictionary-page__application">“Life would be very boring without a pinch of
+                                balagan.”
+                            </div>
+                        </div>
                     </div>
-                    <div class="dictionary-page__border"></div>
-                    <div class="dictionary-page__application">“It takes chutzpah to tell your boss he’s wrong.”</div>
                 </div>
-                <div class="dictionary-page__wrapper">
-                    <div class="dictionary-page__word">Chutzpah</div>
-                    <div class="dictionary-page__transcription">[ Chootz-pah ] <span>Noun</span></div>
-                    <div class="dictionary-page__description-word">Brutal honesty, usually at the price of sounding
-                        presumptuous, arrogant or rude.
+                <div class="dictionary-page__content-wrapper">
+                    <div class="dictionary-page__wrapper">
+                        <div class="dictionary-page__extra-wrapper">
+                            <div class="dictionary-page__word">Yihiye Beseder</div>
+                            <div class="dictionary-page__transcription">[ Yi-hi-ye Be-se-der ] <span>Phrase</span></div>
+                            <div class="dictionary-page__description-word">Everything will be just fine.
+                                A critical mindset for entrepreneurs.
+                            </div>
+                        </div>
+                        <div class="dictionary-page__application">
+                            <div class="dictionary-page__application">“Things may look bad now, but yihiye beseder.”
+                            </div>
+                        </div>
                     </div>
-                    <div class="dictionary-page__border"></div>
-                    <div class="dictionary-page__application">“It takes chutzpah to tell your boss he’s wrong.”</div>
                 </div>
-                <div class="dictionary-page__wrapper">
-                    <div class="dictionary-page__word">Chutzpah</div>
-                    <div class="dictionary-page__transcription">[ Chootz-pah ] <span>Noun</span></div>
-                    <div class="dictionary-page__description-word">Brutal honesty, usually at the price of sounding
-                        presumptuous, arrogant or rude.
+                <div class="dictionary-page__content-wrapper">
+                    <div class="dictionary-page__wrapper">
+                        <div class="dictionary-page__extra-wrapper">
+                            <div class="dictionary-page__word">Firgun</div>
+                            <div class="dictionary-page__transcription"><span>[ Feer-goon ] </span>Noun</div>
+                            <div class="dictionary-page__description-word">Being truly supportive of and happy for
+                                someone.
+                            </div>
+                        </div>
+                        <div class="dictionary-page__application">
+                            <div class="dictionary-page__application">“I would never be here if it weren’t for your
+                                firgun, thank you.”
+                            </div>
+                        </div>
                     </div>
-                    <div class="dictionary-page__border"></div>
-                    <div class="dictionary-page__application">“It takes chutzpah to tell your boss he’s wrong.”</div>
                 </div>
-                <div class="dictionary-page__wrapper">
-                    <div class="dictionary-page__word">Chutzpah</div>
-                    <div class="dictionary-page__transcription">[ Chootz-pah ] <span>Noun</span></div>
-                    <div class="dictionary-page__description-word">Brutal honesty, usually at the price of sounding
-                        presumptuous, arrogant or rude.
+                <div class="dictionary-page__content-wrapper">
+                    <div class="dictionary-page__wrapper">
+                        <div class="dictionary-page__extra-wrapper">
+                            <div class="dictionary-page__word">Yalla</div>
+                            <div class="dictionary-page__transcription">[ Ya-llah ] <span>Phrase</span></div>
+                            <div class="dictionary-page__description-word">Let’s go! Hurry up! 
+                            </div>
+                        </div>
+                        <div class="dictionary-page__application">
+                            <div class="dictionary-page__application">“Yalla, the show’s about
+                                to start!”
+                            </div>
+                        </div>
                     </div>
-                    <div class="dictionary-page__border"></div>
-                    <div class="dictionary-page__application">“It takes chutzpah to tell your boss he’s wrong.”</div>
                 </div>
-                <div class="dictionary-page__wrapper">
-                    <div class="dictionary-page__word">Chutzpah</div>
-                    <div class="dictionary-page__transcription">[ Chootz-pah ] <span>Noun</span></div>
-                    <div class="dictionary-page__description-word">Brutal honesty, usually at the price of sounding
-                        presumptuous, arrogant or rude.
+                <div class="dictionary-page__content-wrapper">
+                    <div class="dictionary-page__wrapper">
+                        <div class="dictionary-page__extra-wrapper">
+                            <div class="dictionary-page__word">Leezrom</div>
+                            <div class="dictionary-page__transcription">[ Leez-rohm ] <span>Verb</span></div>
+                            <div class="dictionary-page__description-word">Welcoming the unexpected.
+                            </div>
+                        </div>
+                        <div class="dictionary-page__application">
+                            <div class="dictionary-page__application">“Life is all about leezrom. Seize an opportunity
+                                and see where it takes you.”
+                            </div>
+                        </div>
                     </div>
-                    <div class="dictionary-page__border"></div>
-                    <div class="dictionary-page__application">“It takes chutzpah to tell your boss he’s wrong.”</div>
                 </div>
-                <div class="dictionary-page__wrapper">
-                    <div class="dictionary-page__word">Chutzpah</div>
-                    <div class="dictionary-page__transcription">[ Chootz-pah ] <span>Noun</span></div>
-                    <div class="dictionary-page__description-word">Brutal honesty, usually at the price of sounding
-                        presumptuous, arrogant or rude.
+                <div class="dictionary-page__content-wrapper">
+                    <div class="dictionary-page__wrapper">
+                        <div class="dictionary-page__extra-wrapper">
+                            <div class="dictionary-page__word">Combina</div>
+                            <div class="dictionary-page__transcription">[ com-bee-na ] <span>Noun</span></div>
+                            <div class="dictionary-page__description-word">An unconventional solution to
+                                a problem.
+                            </div>
+                        </div>
+                        <div class="dictionary-page__application">
+                            <div class="dictionary-page__application">“Unfortunately, there’s no combina when it comes
+                                to tax law.”
+                            </div>
+                        </div>
                     </div>
-                    <div class="dictionary-page__border"></div>
-                    <div class="dictionary-page__application">“It takes chutzpah to tell your boss he’s wrong.”</div>
                 </div>
-                <div class="dictionary-page__wrapper">
-                    <div class="dictionary-page__word">Chutzpah</div>
-                    <div class="dictionary-page__transcription">[ Chootz-pah ] <span>Noun</span></div>
-                    <div class="dictionary-page__description-word">Brutal honesty, usually at the price of sounding
-                        presumptuous, arrogant or rude.
+                <div class="dictionary-page__content-wrapper">
+                    <div class="dictionary-page__wrapper">
+                        <div class="dictionary-page__extra-wrapper">
+                            <div class="dictionary-page__word">Dugri</div>
+                            <div class="dictionary-page__transcription">[ Doo-gree ] <span>Adjective</span></div>
+                            <div class="dictionary-page__description-word">Listen up, here comes the punch. PS, you’re
+                                not going to like it.
+                            </div>
+                        </div>
+                        <div class="dictionary-page__application">
+                            <div class="dictionary-page__application">“Dugri, I think you’re making a huge mistake.”
+                            </div>
+                        </div>
                     </div>
-                    <div class="dictionary-page__border"></div>
-                    <div class="dictionary-page__application">“It takes chutzpah to tell your boss he’s wrong.”</div>
+                </div>
+                <div class="dictionary-page__content-wrapper">
+                    <div class="dictionary-page__wrapper">
+                        <div class="dictionary-page__extra-wrapper">
+                            <div class="dictionary-page__word">Tachles</div>
+                            <div class="dictionary-page__transcription">[ Tach-less ] <span>Noun</span></div>
+                            <div class="dictionary-page__description-word">The bottom line of a long discussion.
+                            </div>
+                        </div>
+                        <div class="dictionary-page__application">
+                            <div class="dictionary-page__application">“Tachles, it all comes down
+                                to money”
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -135,8 +222,48 @@
                 </form>
             </div>
         </div>
+        <div class="footer__lower-wrapper">
+            <div class="footer__lower-left">
+                <div class="footer__copyright">
+                    &copy 2019 All rights reserved, Inbal Arieli
+                </div>
+                <div class="footer__links">
+                    <a href="http://inbalarieli.com/">Inbal Arieli</a>
+                    <a href="http://inbalarieli.com/">Blog</a>
+                    <a href="http://chutzpahcenter.com/">Chutzpah: The Book</a>
+                </div>
+            </div>
+            <div class="footer__social-links">
+                <a class="twitter"
+                   href="https://twitter.com/InbalArieli?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"></a>
+                <a class="facebook" href="https://www.facebook.com/inbal.arieli"></a>
+                <a class="linkedin" href="https://www.linkedin.com/in/inbalarieli/?originalSubdomain=il"></a>
+            </div>
+        </div>
+        <div class="footer__lower-wrapper-mobile">
+            <div class="footer__links-mobile">
+                <a href="http://inbalarieli.com/">Inbal Arieli</a>
+                <a href="http://inbalarieli.com/">Blog</a>
+                <a href="http://chutzpahcenter.com/">Chutzpah: The Book</a>
+            </div>
+            <div class="footer__lower-mobile">
+                <div class="footer__copyright">
+                    &copy 2019 All rights reserved, Inbal Arieli
+                </div>
+                <div class="footer__social-links">
+                    <a class="twitter"
+                       href="https://twitter.com/InbalArieli?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"></a>
+                    <a class="facebook" href="https://www.facebook.com/inbal.arieli"></a>
+                    <a class="linkedin" href="https://www.linkedin.com/in/inbalarieli/?originalSubdomain=il"></a>
+                </div>
+            </div>
+        </div>
     </div>
 </footer>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="slider/slick.min.js"></script>
+<script src="scripts/slider.js"></script>
 <script src="https://kit.fontawesome.com/d441f2753a.js" crossorigin="anonymous"></script>
+
 </body>
 </html>

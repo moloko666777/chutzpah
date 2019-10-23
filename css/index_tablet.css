@@ -1,0 +1,176 @@
+@media screen and (min-width: 767px) {
+  .home-page {
+    display: flex;
+    align-items: center;
+    padding: 3.5rem 3.3rem 3.2rem 3.2rem;
+  }
+  .home-page p {
+    font-size: 1.8rem;
+    margin-top: 0;
+    margin-bottom: 1.8rem;
+  }
+  .home-page__title {
+    width: 100%;
+    vertical-align: top;
+    margin-bottom: 2.8rem;
+  }
+  .home-page__title h1 {
+    font-size: 4.2rem;
+    line-height: 1.21;
+  }
+  .home-page__dictionary {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .home-page__video {
+    display: none;
+  }
+  .home-page__video-mobile {
+    display: block;
+  }
+  .home-page__button {
+    border-radius: 25px;
+    padding: 0.45rem 2rem;
+  }
+  .dictionary-page {
+    padding-top: 2.1rem;
+    padding-bottom: 4rem;
+    padding-left: 3.2rem;
+  }
+  .dictionary-page h2 {
+    line-height: 1.59;
+    font-size: 3.2rem;
+    margin-top: 0;
+    margin-bottom: 3.6rem;
+  }
+  .dictionary-page__wrapper {
+    position: relative;
+    width: unset;
+    min-height: 33.1rem;
+    padding: 2.5rem 3rem 3.2rem 2.5rem;
+  }
+  .dictionary-page__transcription {
+    margin-bottom: 2.1rem;
+    font-size: 1.8rem;
+  }
+  .dictionary-page__description-word {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+  }
+  .dictionary-page__application {
+    font-size: 1.8rem;
+  }
+  .dictionary-page .slick-slide {
+    padding-right: 10px;
+  }
+  .footer {
+    padding: 3.3rem 3.3rem 3.4rem 3.2rem;
+  }
+  .footer-upper__text {
+    line-height: 1.72;
+    margin-bottom: 3rem;
+  }
+  .footer-upper__text h4 {
+    margin-bottom: 0;
+    font-size: 1.8rem;
+  }
+  .footer-upper__text p {
+    font-size: 1.8rem;
+  }
+  .footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 3.6rem;
+  }
+  .footer-upper__input {
+    font-family: 'CentraNo2-Book';
+    border: solid 1px #646464;
+    background: transparent;
+    outline: none;
+    width: 100%;
+    padding: 0.8rem 0;
+    text-align: center;
+    margin-bottom: 1.2rem;
+    font-size: 2rem;
+  }
+  .footer-upper__submit {
+    width: 100%;
+    padding: 0.8rem 0;
+    text-align: center;
+    background-color: #646464;
+    border: 1px solid #646464;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 2rem;
+  }
+  .footer__lower-wrapper {
+    display: none;
+  }
+  .footer__lower-wrapper-mobile {
+    display: block;
+  }
+  .footer__links-mobile {
+    text-align: center;
+    font-family: 'CentraNo2-Medium';
+    margin-bottom: 2.7rem;
+  }
+  .footer__links-mobile a {
+    text-decoration: none;
+    font-size: 14.5px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #646464;
+  }
+  .footer__links-mobile a {
+    color: #646464;
+    text-decoration: none;
+  }
+  .footer__links-mobile a:not(:last-child) {
+    border-right: 1px solid #b7b7b7;
+    padding-right: 1rem;
+  }
+  .footer__links-mobile a:not(:nth-child(1)) {
+    padding-left: 1rem;
+  }
+  .footer .twitter,
+  .footer .facebook,
+  .footer .linkedin {
+    display: inline-block;
+    flex-shrink: 0;
+    border-radius: 50%;
+    width: 2.3rem;
+    height: 2.3rem;
+    background-color: #b7b7b7;
+    font-size: 7rem;
+    font-weight: 700;
+    margin-right: 1.3rem;
+    position: relative;
+  }
+  .footer .twitter:before {
+    font-size: 1.1rem;
+  }
+  .footer .facebook:before {
+    font-size: 1.1rem;
+  }
+  .footer .linkedin:before {
+    font-size: 1.1rem;
+  }
+  .footer__copyright {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #646464;
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .dictionary-page__content-wrapper {
+    width: 50%;
+  }
+  .dictionary-page {
+    padding-right: 3.2rem;
+  }
+}

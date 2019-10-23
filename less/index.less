@@ -1,3 +1,6 @@
+@import "../css/index_mobile.css";
+@import "../css/index_tablet.css";
+
 html {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -7,53 +10,233 @@ body {
   margin: 0;
 }
 
+
+@media screen and (min-width: 1366px) {
+  .home-page {
+    padding: 10.7rem 31rem 11.5rem 23.8rem;
+    text-align: left;
+
+    p {
+      text-align: left;
+      font-size: 2rem;
+      margin-top: 0;
+      margin-bottom: 4.2rem;
+    }
+
+    &__title {
+      display: inline-block;
+      width: 70%;
+      vertical-align: top;
+      padding-top: 2.3rem;
+      text-align: left;
+
+      h1 {
+        font-size: 5.2rem;
+        font-weight: 500;
+        line-height: 1.15;
+        text-align: left;
+        margin-bottom: 0;
+      }
+    }
+
+    &__dictionary {
+      font-size: 2rem;
+      margin-bottom: 2.8rem;
+      text-align: left;
+    }
+
+    &__video {
+      display: inline-block;
+      width: 30%;
+    }
+
+    &__video-mobile {
+      display: none;
+    }
+
+    &__button {
+      border-radius: 20px;
+      padding: 0.45rem 2rem;
+    }
+  }
+
+  .dictionary-page__wrapper {
+    min-height: 27.5rem;
+  }
+
+  .footer {
+    padding: 4.3rem 14.9rem 4.3rem 14.6rem;
+
+    &-wrapper {
+      justify-content: space-between;
+      align-items: end;
+      margin-bottom: 2.7rem;
+    }
+
+    &-upper__text {
+      font-family: 'CentraNo2-Book';
+      font-size: 1.6rem;
+      color: #646464;
+      width: 30%;
+      margin-bottom: 0;
+
+      h4 {
+        margin-top: 0;
+      }
+
+      p {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+
+    &-upper__text {
+      font-size: 1.6rem;
+      width: 30%;
+    }
+
+    &-upper__input {
+      text-align: left;
+      font-size: 1.6rem;
+      padding: 12px 20px;
+      position: absolute;
+      top: 0;
+      right: 10rem;
+      width: 35%;
+      line-height: 1.7;
+    }
+
+    &-upper__submit {
+      font-size: 1.6rem;
+      position: absolute;
+      top: 0;
+      right: 0;
+      color: #ffffff;
+      width: 110px;
+      padding: 15px 0;
+      text-align: center;
+      background-color: #646464;
+      border: 1px solid #646464;
+      border-radius: 0 5px 5px 0;
+    }
+
+    &__lower-wrapper-mobile {
+      display: none;
+    }
+
+    &__lower-wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .twitter, .facebook, .linkedin {
+      display: inline-block;
+      flex-shrink: 0;
+      border-radius: 50%;
+      width: 2.6rem;
+      height: 2.6rem;
+      background-color: #b7b7b7;
+      font-size: 7rem;
+      font-weight: 700;
+      margin-right: 1.3rem;
+      position: relative;
+    }
+
+
+    .twitter:before {
+      font-size: 1.3rem;
+      top: 7px;
+      left: 7px;
+    }
+
+    .facebook:before {
+      font-size: 1.3rem;
+      top: 6px;
+      left: 8px;
+    }
+
+    .linkedin:before {
+      font-size: 1.3rem;
+      top: 6px;
+      left: 8px;
+    }
+
+    &__copyright {
+      font-size: 1.2rem;
+      color: #646464;
+      margin-right: 6.4rem;
+    }
+  }
+
+
+  .dictionary-page {
+    padding: 4.6rem 14.7rem 12.4rem 14.7rem;
+
+    h2 {
+      font-size: 5.2rem;
+      margin-top: 0;
+      margin-bottom: 4.3rem;
+    }
+
+    &__wrapper {
+      position: relative;
+      padding: 2.4rem 5.3rem 3.9rem 3.8rem;
+      height: 100%;
+      box-sizing: border-box;
+    }
+
+    &__transcription {
+      font-size: 1.6rem;
+      margin-bottom: 1.5rem;
+    }
+
+    &__description-word {
+      font-size: 1.6rem;
+      //margin-bottom: 40px;
+    }
+
+    &__application {
+      font-weight: bold;
+      color: #646464;
+      position: relative;
+      font-size: 1.6rem;
+    }
+
+    &__content-wrapper {
+      width: 31%;
+      margin-bottom: 3.1%;
+    }
+  }
+}
+
 .home-page {
-  padding: 10.7rem 31rem 11.5rem 23.8rem;
   background-color: #f7f7f7;
   font-size: 0;
 
   p {
     font-family: 'CentraNo2-Book';
-    font-size: 2rem;
     line-height: 1.7;
     letter-spacing: normal;
     color: #646464;
-    margin-top: 0;
-    margin-bottom: 4.2rem;
   }
 
   &__title {
-    display: inline-block;
-    width: 70%;
-    vertical-align: top;
-    padding-top: 2.3rem;
-
     h1 {
-      font-family: 'CentraNo2-Bold';
-      margin-top: 0;
-      margin-bottom: 0;
-      font-size: 5.2rem;
+      font-family: 'CentraNo2-Medium';
       font-weight: 500;
-      line-height: 1.15;
-      letter-spacing: normal;
+      margin-top: 0;
       color: #1e1e1e;
     }
   }
 
   &__dictionary {
     font-family: "CentraNo2-Medium";
-    font-size: 2rem;
     font-weight: 500;
     line-height: 1.7;
     letter-spacing: normal;
     color: #656565;
-    margin-bottom: 2.8rem;
   }
 
-  &__video {
-    display: inline-block;
-    width: 30%;
-  }
 
   &__button {
     font-family: "CentraNo2-Book";
@@ -62,21 +245,17 @@ body {
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
-    border-radius: 20px;
     background-color: #3c82ff;
     text-decoration: none;
-    padding: 0.45rem 2rem;
   }
 }
 
 
 .dictionary-page {
-  padding: 4.6rem 14.7rem 12.4rem 14.7rem;
   background-color: #023ca3;
 
   h2 {
     font-family: 'CentraNo2-Bold';
-    font-size: 5.2rem;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -84,8 +263,6 @@ body {
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
-    margin-top: 0;
-    margin-bottom: 4.3rem;
   }
 
   &__content {
@@ -95,14 +272,10 @@ body {
   }
 
   &__wrapper {
-    //display: inline-block;
-    position: relative;
-    width: 23%;
-    //margin-right: 3.2rem;
-    margin-bottom: 3.1%;
-    min-height: 21.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #ffffff;
-    padding: 2.4rem 5.3rem 3.9rem 3.8rem;
   }
 
   &__wrapper:nth-child(3n+3) {
@@ -119,9 +292,7 @@ body {
 
   &__transcription {
     font-family: 'CentraNo2-Book';
-    font-size: 1.6rem;
     color: #646464;
-    margin-bottom: 1.5rem;
 
     span {
       font-family: 'CentraNo2-Bold';
@@ -133,82 +304,151 @@ body {
 
   &__description-word {
     font-family: 'CentraNo2-Book';
-    font-size: 1.6rem;
     color: #646464;
   }
 
-  &__description-word:before {
+  &__application:after {
     content: "";
     position: absolute;
-    left: 16%;
+    left: 7%;
     transform: translateX(-50%);
-    bottom: 95px;
+    top: -10px;
     width: 31px;
     height: 2px;
     background-color: #646464;
   }
 
   &__application {
-    width: 70%;
     font-family: 'CentraNo2-Bold';
-    font-size: 1.6rem;
     font-weight: bold;
     color: #646464;
-    position: absolute;
-    bottom: 3.9rem;
+    position: relative;
   }
 }
 
 .footer {
-  padding: 4.3rem 14.9rem 4.3rem 14.6rem;
   background-color: #e6f0ff;
+
   &-wrapper {
     display: flex;
-    justify-content: space-between;
-    align-items: end;
     position: relative;
   }
 
   &-upper__text {
     font-family: 'CentraNo2-Book';
-    font-size: 1.6rem;
     color: #646464;
-    width: 30%;
 
     h4 {
+      font-family: 'CentraNo2-Medium';
+      font-weight: 500;
       margin-top: 0;
+    }
+
+    p {
+      margin-bottom: 0;
     }
   }
 
   &-upper__input {
     font-family: 'CentraNo2-Book';
-    font-size: 1.6rem;
     color: #646464;
-    padding: 12px 20px;
     border-radius: 5px;
     border: solid 1px #646464;
     background: transparent;
     outline: none;
-    position: absolute;
-    right: 10rem;
-    width: 35%;
   }
 
-&-upper__submit {
-    position: absolute;
-    top: 0;
-    right: 0;
-    font: 16px/16px 'Centra2 Book';
+  &-upper__submit {
+    font-family: 'CentraNo2-Book';
     color: #ffffff;
-    width: 110px;
-    padding: 15px 0;
-    text-align: center;
     background-color: #646464;
     border: 1px solid #646464;
-    border-radius: 0 5px 5px 0;
+  }
+
+  &__lower-left {
+    display: flex;
+  }
+
+  &__copyright {
+    font-family: 'CentraNo2-Medium';
+    font-weight: 500;
+    color: #646464;
+  }
+
+  &__links {
+    font-family: 'CentraNo2-Medium';
+    font-size: 1.2rem;
+    font-weight: 500;
+
+    a {
+      color: #646464;
+      text-decoration: none;
+    }
+
+    a:not(:last-child) {
+      border-right: 1px solid #b7b7b7;
+      padding-right: 1rem;
+    }
+
+    a:not(:nth-child(1)) {
+      padding-left: 1rem;
+    }
+  }
+
+  &__social-links {
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .twitter, .facebook, .linkedin {
+    display: inline-block;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-color: #b7b7b7;
+  }
+
+  .linkedin {
+    margin-right: 0;
+  }
+
+  .twitter:before {
+    content: "\f099";
+    font-family: "Font Awesome 5 Brands";
+    position: absolute;
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .facebook:before {
+    content: "\f39e";
+    font-family: "Font Awesome 5 Brands";
+    position: absolute;
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .linkedin:before {
+    content: '\f0e1';
+    font-family: "Font Awesome 5 Brands";
+    position: absolute;
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__lower-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
 
 
-}
 
